@@ -9,7 +9,6 @@ input.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') {
     createDeleteElements(input.value)
     input.value = ''
-     
     }
 });
 
@@ -22,8 +21,6 @@ btn.addEventListener('click', (e) => {
 function createDeleteElements(value) {
     tasksNumber++
     
-
-
     const li = document.createElement('li')
     const btn = document.createElement('button')
 
@@ -49,5 +46,4 @@ function createDeleteElements(value) {
     total.textContent = tasksNumber
 
     result.appendChild(li)
-
 }

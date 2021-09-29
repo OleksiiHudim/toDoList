@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
+
 body {
     background: rgb(34,195,188);
     background: radial-gradient(circle, rgba(34,195,188,1) 0%, rgba(253,195,45,0.8743872549019608) 100%);
+    font-family: 'Gluten', cursive;
 }
 
 .container {
-    /* remember delete color lime   */
-    /* background-color: lime;   */
     width: 400px;
     margin: 150px auto;
     display: flex;
@@ -19,12 +20,11 @@ body {
 #input {
     width: 300px;
     height: 30px;
-    background-color: lightgray;
+    background-color: lightgray;   
 }
 
 #input:hover {
     background-color: rgb(255, 255, 255);
-
 }
 
 .button {
@@ -63,7 +63,6 @@ body {
 .li:hover {
     width: 250px;
     height: 40px;
-    /* background-color: rgb(226, 230, 7); */
     font-size: 1.5rem;
 }
 
@@ -71,12 +70,10 @@ body {
     font-size: 1.5rem;
     text-decoration: line-through;
     background-color: rgba(50, 235, 50, 0.637);
-
 }
 .btn {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    
 }
