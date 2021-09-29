@@ -6,6 +6,13 @@ body {
     font-family: 'Gluten', cursive;
 }
 
+h1,
+p {
+    margin: 40px 15px;
+}
+
+
+
 .container {
     width: 400px;
     margin: 150px auto;
